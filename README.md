@@ -103,7 +103,7 @@ endmodule
       
 	After this you can see the window like below 
 
-![image](https://github.com/user-attachments/assets/3d252d46-2eee-49a0-a28f-30d38697e0aa)
+![Screenshot 2024-11-18 110339](https://github.com/user-attachments/assets/9eb00074-dfec-4af3-b919-d2094a6d39f7)
 
 
 ### Fig 3:Invoke the Cadence Environment
@@ -118,7 +118,6 @@ or
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
-![image](https://github.com/user-attachments/assets/aeb4f42b-4091-4449-8a50-b1ff424f97c0)
 
 ![image](https://github.com/user-attachments/assets/3c65a34f-990a-4c4a-9a7b-3de01ecf04b4)
 
@@ -128,7 +127,7 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-![image](https://github.com/user-attachments/assets/7789888a-4295-4b60-8922-52d1ff19fe26)
+![Screenshot 2024-11-22 222628](https://github.com/user-attachments/assets/ad79c2aa-9f34-43f7-834b-1a96f4b7fe90)
 
 ### Fig 5:cds.lib file Creation
 
@@ -170,6 +169,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2024-11-18 110705](https://github.com/user-attachments/assets/ec446fe6-1dcb-442c-802f-332ffa5d3823)
+
 
 ### Fig 8: Compiled database in worklib
 
@@ -179,9 +180,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
-![image](https://github.com/user-attachments/assets/ef0f5bf0-ed5d-48dd-9916-0ebbcc04d246)
 
-### Fig 9: Elaboration Launch Option
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 	Inputs: Top level design / test bench Verilog codes 
@@ -195,6 +194,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 3.	Computes parameter values 
 4.	Checks for hierarchical names conflicts 
 5.	It also establishes net connectivity and prepares all of this for simulation
+   ![Screenshot 2024-11-18 113215](https://github.com/user-attachments/assets/5fe3c963-c21b-4d1e-af57-d4c9546a4bd4)
+
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
